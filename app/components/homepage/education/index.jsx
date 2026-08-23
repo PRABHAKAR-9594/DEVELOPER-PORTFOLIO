@@ -8,13 +8,13 @@ import GlowCard from "../../helper/glow-card";
 
 function Education() {
   return (
-    <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b] overflow-hidden">
       <Image
         src="/section.svg"
         alt="Hero"
         width={1572}
         height={795}
-        className="absolute top-0 -z-10"
+        className="absolute top-0 -z-10 max-w-full w-full object-cover"
         priority
       />
       <div className="flex justify-center -translate-y-[1px]">
@@ -25,11 +25,11 @@ function Education() {
 
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex  items-center">
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-12 sm:w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
             Educations
           </span>
-          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="w-12 sm:w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
       </div>
 

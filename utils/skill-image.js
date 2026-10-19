@@ -82,6 +82,10 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import langchain from '../app/assets/svg/skills/langchain.svg';
+import langgraph from '../app/assets/svg/skills/langgraph.svg';
+import agenticAI from '../app/assets/svg/skills/agentic-ai.svg';
+import rag from '../app/assets/svg/skills/rag.svg';
 
 
 
@@ -254,6 +258,14 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'langchain':
+      return langchain;
+    case 'langgraph':
+      return langgraph;
+    case 'agentic ai':
+      return agenticAI;
+    case 'rag':
+      return rag;
     default:
       break;
   }
